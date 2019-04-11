@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "src/Port.proto";
+
+message Switch {
+  string vendor = 1;
+  string arch = 2;
+  repeated Port port = 3;
+}

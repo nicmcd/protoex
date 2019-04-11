@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message Port {
+  float speed = 1;
+  int32 lanes = 2;
+}
